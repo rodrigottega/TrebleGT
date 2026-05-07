@@ -12,8 +12,8 @@ export function IconSidebar({ activeSection, setActiveSection }: { activeSection
   return (
     <div className="flex w-16 flex-col items-center justify-between border-r bg-muted/30 py-4">
       <div className="flex flex-col items-center space-y-4">
-        <div className="mb-4 flex h-10 w-10 items-center justify-center rounded-lg bg-primary text-primary-foreground font-bold tracking-tighter shadow-sm">
-          ciarem.ai
+        <div className="mb-4 flex h-10 w-10 items-center justify-center rounded-lg shadow-sm overflow-hidden border">
+          <img src="https://raw.githubusercontent.com/rodrigottega/assets/main/300x300_Square_ciarem.png" alt="ciarem.ai" className="h-full w-full object-cover" />
         </div>
         <div className="flex flex-col items-center space-y-2 w-full px-2">
           {NAV_ITEMS.map((item) => (
