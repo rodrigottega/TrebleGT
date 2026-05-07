@@ -1,0 +1,10 @@
+{
+  "style": "radix-nova",
+  "rsc": false,
+  "tailwind": {
+    "config": "",
+    "css": "src/index.css",
+    "baseColor": "neutral",
+    "cssVariables": true
+  }
+}
