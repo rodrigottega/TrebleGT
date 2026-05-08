@@ -19,7 +19,7 @@ const SECONDARY_MENUS: Record<MainSection, { title: string, groups: { label?: st
   ai: {
     title: "AI Center",
     groups: [
-      { items: ["Agentes", "Base de conocimiento", "Playground", "Actividad", "Reglas de traspaso", "Configuración IA"] }
+      { items: ["Agentes", "Base de conocimiento", "Playground", "Actividad", "Reglas de transferencia", "Configuración IA"] }
     ]
   },
   channels: {

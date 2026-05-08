@@ -10,7 +10,7 @@ export function AICenterView({ secondaryTab }: { secondaryTab: string }) {
   if (secondaryTab === "Playground") return <PlaygroundView />;
   if (secondaryTab === "Base de conocimiento") return <KnowledgeBasesManager />;
   if (secondaryTab === "Actividad") return <ActivityView />;
-  if (secondaryTab === "Reglas de traspaso") return <HandoffRulesView />;
+  if (secondaryTab === "Reglas de transferencia") return <HandoffRulesView />;
   if (secondaryTab === "Configuración IA") return <AISettingsView />;
 
   return <AgentsView />;

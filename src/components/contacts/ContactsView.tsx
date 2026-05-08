@@ -380,7 +380,7 @@ export function ContactsView({ secondaryTab }: { secondaryTab: string }) {
                                    </div>
                                    <div className="flex items-center gap-2 text-xs text-muted-foreground mb-1.5">
                                       <i className={cn("text-sm", c.canal === "WhatsApp" ? "ri-whatsapp-line" : "ri-instagram-line")}></i>
-                                      <span>Resp. {c.agenteAtencion || 'Agente'}</span>
+                                      <span>Resp. {c.asignadoA || 'Agente'}</span>
                                    </div>
                                    <p className="text-sm line-clamp-2">{c.ultimoMensaje}</p>
                                    <p className="text-xs text-primary mt-2 opacity-0 group-hover:opacity-100 transition-opacity flex items-center gap-1"><i className="ri-eye-line"></i> Ver detalles</p>
